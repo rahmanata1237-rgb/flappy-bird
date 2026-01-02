@@ -1,0 +1,26 @@
+const CACHE = "flappy-v1";
+
+self.addEventListener("install", e => {
+  e.waitUntil(
+    caches.open(CACHE).then(cache =>
+      cache.addAll([
+        "./",
+        "./index.html",
+        "./style.css",
+        "./script.js",
+        "./manifest.json",
+        "./assets/bird.png",
+        "./assets/pipe.png",
+        "./assets/bg.png",
+        "./assets/jump.mp3",
+        "./assets/crash.mp3"
+      ])
+    )
+  );
+});
+
+self.addEventListener("fetch", e => {
+  e.respondWith(
+    caches.match(e.request).then(res => res || fetch(e.request))
+  );
+});
