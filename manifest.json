@@ -11,16 +11,16 @@
   "lang": "en",
   "icons": [
     {
-      "src": "https://rahmanata1237-rgb.github.io/flappy-bird/icon-192.png",
+      "src": "https://rahmanata1237-rgb.github.io/flappy-bird/assets/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "https://rahmanata1237-rgb.github.io/flappy-bird/icon-512.png",
+      "src": "https://rahmanata1237-rgb.github.io/flappy-bird/assets/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
 }
