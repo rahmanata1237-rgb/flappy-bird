@@ -1,9 +1,9 @@
 {
   "name": "Flappy Bird",
   "short_name": "Flappy",
-  "description": "A smooth Flappy Bird clone with settings, FPS control, and difficulty levels.",
-  "start_url": "./index.html",
-  "scope": "./",
+  "description": "A smooth Flappy Bird clone with settings and FPS control.",
+  "start_url": "https://rahmanata1237-rgb.github.io/flappy-bird/index.html",
+  "scope": "https://rahmanata1237-rgb.github.io/flappy-bird/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
@@ -11,14 +11,16 @@
   "lang": "en",
   "icons": [
     {
-      "src": "./icon-192.png",
+      "src": "https://rahmanata1237-rgb.github.io/flappy-bird/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "./icon-512.png",
+      "src": "https://rahmanata1237-rgb.github.io/flappy-bird/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
